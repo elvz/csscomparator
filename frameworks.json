@@ -1,0 +1,49 @@
+{
+    "frameworks": [
+        {
+            "id": 1,
+            "name": "Bootstrap",
+            "accessibility": true,
+            "size": {
+                "uncompressed": 187000,
+                "minified": 147000,
+                "gzipped": 20000
+            },
+            "docs": "Docs",
+            "corporation": "Twitter",
+            "stars": 130000,
+            "require": "jquery",
+            "authors": "Mark Otto, Jacob Thornton"
+        },
+        {
+            "id": 2,
+            "name": "Foundation",
+            "accessibility": true,
+            "size": {
+                "uncompressed": 90000,
+                "minified": 64000,
+                "gzipped": 12000
+            },
+            "docs": "Docs",
+            "corporation": "ZURB",
+            "stars": 27000,
+            "require": "jquery",
+            "authors": "Geoff Kimball, Chris Oyler"
+        },
+        {
+            "id": 3,
+            "name": "Materialize",
+            "accessibility": false,
+            "size": {
+                "uncompressed": 114000,
+                "minified": 90000,
+                "gzipped": 18000
+            },
+            "docs": "Docs",
+            "corporation": "Materialize",
+            "stars": 36000,
+            "require": "jquery",
+            "authors": "Alvin Wang"
+        }
+    ]
+}
