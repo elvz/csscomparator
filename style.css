@@ -131,7 +131,6 @@ nav ul li:hover {
 .items {
     display: flex;
     justify-content: space-between;
-    text-align: center;
     width: 90%;
     height: 100vh;
     margin: auto;
@@ -139,12 +138,13 @@ nav ul li:hover {
   
   .item1 {
     width: 30%;
-    padding-top: 20px;
+    padding: 20px;
+    position: fixed;
   }
 
   .item2 {
     width: 70%;
-    padding-top: 20px;
+    margin-left: 30%;
   }
   
  
@@ -215,6 +215,36 @@ nav ul li:hover {
     transform: rotate(45deg);
   }
 
+  #demo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+
+  .card {
+    background-color: aliceblue;
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 20px;
+    margin: 20px
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 
 @media (max-width: 900px) {
     nav {
@@ -226,11 +256,35 @@ nav ul li:hover {
         overflow: hidden;
         position: fixed; 
         top: 0; 
+        z-index: 9999;
     }
     .content {
         margin-top: -16px;
         background: dodgerblue;
         height: 100vh;
         margin-top: 48px;
+    }
+    form {
+      display: flex;
+      justify-content: space-between;
+      background-color: dodgerblue;
+      width: 320%;
+      height: 35px;
+      padding-top: 10px;
+      margin-top: -20px;
+    }
+    #demo {
+      margin-top: 50px;
+      margin-bottom: 60px
+    }
+    .item2 {
+      width: 100%;
+      margin-left: 0;
+    }
+    .items {
+      width: 100%;
+    }
+    .card {
+      width: 90%;
     }
 }
